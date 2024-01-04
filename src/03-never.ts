@@ -4,9 +4,9 @@ type Action =
   | { type: 'loading' }
   | { type: 'error', payload: string };
 
-const action = { 
-  type: 'error', 
-  payload: 'Something went wrong' 
+const action = {
+  type: 'error',
+  payload: 'Something went wrong'
 } as const;
 
 dispatch(action);

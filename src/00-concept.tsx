@@ -3,17 +3,13 @@ export type Product = {
   name: string;
   price: string;
   sku: string;
-  url: string;
   productId: number;
-  productCode: string;
 };
 
 export type Variant = {
-  image: string;
   name: string;
   price: string | null;
   sku: string;
-  url: string | null;
   productId: number;
   variantId: string;
 };
@@ -23,7 +19,7 @@ function Title({ name }: Product | Variant) {
            // ^?
 }
 
-function App() {
+function Page() {
   const product = {
     image: "https://example.com/image.png",
     name: "Product Name",
