@@ -25,9 +25,7 @@ function Page() {
     name: "Product Name",
     price: "$10.00",
     sku: "12345",
-    url: "https://example.com/product",
     productId: 123,
-    productCode: "ABC123",
     variantId: "12345",
   };
 
