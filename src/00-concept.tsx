@@ -14,9 +14,9 @@ export type Variant = {
   variantId: string;
 };
 
-function Title({ name }: Product | Variant) {
+function Title({ name }: { name: string }) {
   return <h1>{name}</h1>;
-           // ^?
+  //          ^?
 }
 
 function Page() {
