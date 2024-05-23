@@ -10,6 +10,7 @@
   "author": "Yuri Sementsov <hello@smcv.dev> (https://smcv.dev/)",
   "license": "MIT",
   "devDependencies": {
+    "@total-typescript/tsconfig": "^1.0.4",
     "@types/node": "^18.19.4",
     "@types/react": "^18.2.0",
     "react": "^18.2.0",
