@@ -6,7 +6,8 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "lint": "biome lint .",
-        "lint:fix": "biome check --write --no-errors-on-unmatched --files-ignore-unknown=true ."
+        "lint:fix": "biome check --write --no-errors-on-unmatched --files-ignore-unknown=true .",
+        "check": "tsc --noEmit"
     },
     "keywords": [],
     "author": "Yuri Sementsov <hello@smcv.dev> (https://smcv.dev/)",
@@ -14,11 +15,11 @@
     "devDependencies": {
         "@biomejs/biome": "^1.8.3",
         "@total-typescript/tsconfig": "^1.0.4",
-        "@types/node": "^18.19.4",
-        "@types/react": "^18.2.0",
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0",
-        "typescript": "^5.3.3"
+        "@types/node": "^20.14.11",
+        "@types/react": "^18.3.3",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "typescript": "^5.5.3"
     },
     "prettier": {
         "printWidth": 80

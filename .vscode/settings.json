@@ -47,7 +47,7 @@
     "**/.DS_Store": true,
     "**/Thumbs.db": true,
     "node_modules": true,
-    ".vscode": false
+    ".vscode": true
   },
   "explorerExclude.backup": {},
   "typescript.tsdk": "node_modules/typescript/lib",
