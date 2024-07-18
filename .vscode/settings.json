@@ -57,7 +57,7 @@
   "files.eol": "\n",
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
-  "eslint.enable": true,
+  "eslint.enable": false,
   "eslint.format.enable": true,
   "editor.formatOnSave": true,
   "css.validate": false,
@@ -79,5 +79,6 @@
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "biomejs.biome"
-  }
+  },
+  "prettier.enable": false
 }
