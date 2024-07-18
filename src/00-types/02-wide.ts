@@ -1,7 +1,7 @@
 function sum(a, b) {
-  return a + b;
+    return a + b;
 }
 
-let b = sum(2, 2);
-let c = sum(2, "2");
-let d = sum(true, false);
+const b = sum(2, 2);
+const c = sum(2, '2');
+const d = sum(true, false);

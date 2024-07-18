@@ -1,10 +1,9 @@
-
 type D = Record<string, CatInfo>;
 //   ^?
 
 interface CatInfo {
-  age: number;
-  breed: string;
+    age: number;
+    breed: string;
 }
 
-type CatName = "miffy" | "boris" | "mordred";
+type CatName = 'miffy' | 'boris' | 'mordred';

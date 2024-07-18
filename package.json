@@ -1,23 +1,26 @@
 {
-  "name": "vscode-talk",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "Yuri Sementsov <hello@smcv.dev> (https://smcv.dev/)",
-  "license": "MIT",
-  "devDependencies": {
-    "@total-typescript/tsconfig": "^1.0.4",
-    "@types/node": "^18.19.4",
-    "@types/react": "^18.2.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "typescript": "^5.3.3"
-  },
-  "prettier": {
-    "printWidth": 80
-  }
+    "name": "vscode-talk",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "biome lint .",
+        "lint:fix": "biome check --write --no-errors-on-unmatched --files-ignore-unknown=true ."
+    },
+    "keywords": [],
+    "author": "Yuri Sementsov <hello@smcv.dev> (https://smcv.dev/)",
+    "license": "MIT",
+    "devDependencies": {
+        "@biomejs/biome": "^1.8.3",
+        "@total-typescript/tsconfig": "^1.0.4",
+        "@types/node": "^18.19.4",
+        "@types/react": "^18.2.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "typescript": "^5.3.3"
+    },
+    "prettier": {
+        "printWidth": 80
+    }
 }

@@ -6,5 +6,5 @@ a = true;
 a = undefined;
 a = null;
 a = {
-  name: 'John',
+    name: 'John',
 };

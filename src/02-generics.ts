@@ -1,7 +1,6 @@
-
 type ApiResponse = {
-  data: any
-}
+    data: any;
+};
 
 // const makeFetch = (url: string) => {
 //   return fetch(url).then((response) => response.json())
@@ -11,7 +10,6 @@ type ApiResponse = {
 //   .then((res) => {
 //     console.log(res)
 //   });
-
 
 // const log = <T>(value: T) => {
 //   return value;

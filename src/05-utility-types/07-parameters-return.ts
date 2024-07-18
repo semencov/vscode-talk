@@ -5,4 +5,3 @@ type N = Parameters<typeof f1>;
 
 type O = ReturnType<typeof f1>;
 //   ^?
-

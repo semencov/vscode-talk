@@ -1,4 +1,3 @@
-
 type L = NonNullable<string | number | undefined>;
 //   ^?
 
