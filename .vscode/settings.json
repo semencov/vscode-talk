@@ -1,8 +1,6 @@
 {
   "presentation-mode.active": {
-    "commands": [
-      "workbench.action.closeSidebar"
-    ],
+    "commands": ["workbench.action.closeSidebar"],
     "editor.fontSize": 16,
     "editor.matchBrackets": "never",
     "editor.minimap.enabled": false,
@@ -21,9 +19,7 @@
     "window.zoomLevel": 1
   },
   "presentation-mode.inactive": {
-    "commands": [
-      "workbench.action.focusSideBar"
-    ]
+    "commands": ["workbench.action.focusSideBar"]
   },
   "presentation-mode.configBackup": {
     "editor.fontSize": "undefined",
@@ -65,24 +61,23 @@
   "eslint.format.enable": true,
   "editor.formatOnSave": true,
   "css.validate": false,
-  "stylelint.enable": false,
   "editor.snippetSuggestions": "bottom",
   "editor.codeActionsOnSave": {
-    "source.fixAll": "always",
-  },
-  "[css]": {
-    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+    "source.fixAll.eslint": "never",
+    "source.fixAll.format": "never",
+    "quickfix.biome": "explicit",
+    "source.organizeImports.biome": "explicit"
   },
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "biomejs.biome"
   },
   "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "biomejs.biome"
   },
   "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "biomejs.biome"
   },
   "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "biomejs.biome"
   }
 }
