@@ -1,84 +1,84 @@
 {
-  "presentation-mode.active": {
-    "commands": ["workbench.action.closeSidebar"],
-    "editor.fontSize": 16,
-    "editor.matchBrackets": "never",
-    "editor.minimap.enabled": false,
-    "editor.scrollbar.verticalScrollbarSize": 0,
-    "github.copilot.enable": false,
-    "cody.autocomplete.enabled": false,
-    "cody.commandHints.enabled": false,
-    "cody.codeActions.enabled": false,
-    "cody.commandCodeLenses": false,
-    "workbench.activityBar.visible": false,
-    "workbench.activityBar.location": "hidden",
-    "workbench.statusBar.visible": false,
-    "workbench.layoutControl.enabled": false,
-    "window.commandCenter": false,
-    "workbench.editor.showTabs": false,
-    "window.zoomLevel": 1
-  },
-  "presentation-mode.inactive": {
-    "commands": ["workbench.action.focusSideBar"]
-  },
-  "presentation-mode.configBackup": {
-    "editor.fontSize": "undefined",
-    "editor.matchBrackets": "undefined",
-    "editor.minimap.enabled": "undefined",
-    "editor.scrollbar.verticalScrollbarSize": "undefined",
-    "github.copilot.enable": "undefined",
-    "cody.autocomplete.enabled": "undefined",
-    "cody.commandHints.enabled": "undefined",
-    "cody.codeActions.enabled": "undefined",
-    "cody.commandCodeLenses": "undefined",
-    "workbench.activityBar.visible": "undefined",
-    "workbench.activityBar.location": "undefined",
-    "workbench.statusBar.visible": "undefined",
-    "workbench.layoutControl.enabled": "undefined",
-    "window.commandCenter": "undefined",
-    "workbench.editor.showTabs": "undefined",
-    "window.zoomLevel": "undefined"
-  },
-  "files.exclude": {
-    "**/.git": true,
-    "**/.svn": true,
-    "**/.hg": true,
-    "**/CVS": true,
-    "**/.DS_Store": true,
-    "**/Thumbs.db": true,
-    "node_modules": true,
-    ".vscode": true
-  },
-  "explorerExclude.backup": {},
-  "typescript.tsdk": "node_modules/typescript/lib",
-  "npm.packageManager": "pnpm",
-  "editor.tabSize": 4,
-  "editor.insertSpaces": true,
-  "files.eol": "\n",
-  "files.trimTrailingWhitespace": true,
-  "files.insertFinalNewline": true,
-  "eslint.enable": false,
-  "eslint.format.enable": true,
-  "editor.formatOnSave": true,
-  "css.validate": false,
-  "editor.snippetSuggestions": "bottom",
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "never",
-    "source.fixAll.format": "never",
-    "quickfix.biome": "explicit",
-    "source.organizeImports.biome": "explicit"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "biomejs.biome"
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "biomejs.biome"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "biomejs.biome"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "biomejs.biome"
-  },
-  "prettier.enable": false
+    "presentation-mode.active": {
+        "commands": ["workbench.action.closeSidebar"],
+        "editor.fontSize": 16,
+        "editor.matchBrackets": "never",
+        "editor.minimap.enabled": false,
+        "editor.scrollbar.verticalScrollbarSize": 0,
+        "github.copilot.enable": false,
+        "cody.autocomplete.enabled": false,
+        "cody.commandHints.enabled": false,
+        "cody.codeActions.enabled": false,
+        "cody.commandCodeLenses": false,
+        "workbench.activityBar.visible": false,
+        "workbench.activityBar.location": "hidden",
+        "workbench.statusBar.visible": false,
+        "workbench.layoutControl.enabled": false,
+        "window.commandCenter": false,
+        "workbench.editor.showTabs": false,
+        "window.zoomLevel": 1
+    },
+    "presentation-mode.inactive": {
+        "commands": ["workbench.action.focusSideBar"]
+    },
+    "presentation-mode.configBackup": {
+        "editor.fontSize": "undefined",
+        "editor.matchBrackets": "undefined",
+        "editor.minimap.enabled": "undefined",
+        "editor.scrollbar.verticalScrollbarSize": "undefined",
+        "github.copilot.enable": "undefined",
+        "cody.autocomplete.enabled": "undefined",
+        "cody.commandHints.enabled": "undefined",
+        "cody.codeActions.enabled": "undefined",
+        "cody.commandCodeLenses": "undefined",
+        "workbench.activityBar.visible": "undefined",
+        "workbench.activityBar.location": "undefined",
+        "workbench.statusBar.visible": "undefined",
+        "workbench.layoutControl.enabled": "undefined",
+        "window.commandCenter": "undefined",
+        "workbench.editor.showTabs": "undefined",
+        "window.zoomLevel": "undefined"
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "node_modules": true,
+        ".vscode": true
+    },
+    "explorerExclude.backup": {},
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "npm.packageManager": "pnpm",
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "files.eol": "\n",
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "eslint.enable": false,
+    "eslint.format.enable": true,
+    "editor.formatOnSave": true,
+    "css.validate": false,
+    "editor.snippetSuggestions": "bottom",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "never",
+        "source.fixAll.format": "never",
+        "quickfix.biome": "explicit",
+        "source.organizeImports.biome": "explicit"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "prettier.enable": false
 }
